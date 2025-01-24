@@ -1,0 +1,52 @@
+{
+  "name": "@garbee/tool-config",
+  "version": "0.0.0",
+  "description": "Various shared configurations for tools",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    "./eslint.config.js": {
+      "default": "./eslint.config.js"
+    },
+    "./eslint/core.js": {
+      "default": "./src/eslint/core.js"
+    },
+    "./eslint/core/suggestions.js": {
+      "default": "./src/eslint/core/suggestions.js"
+    },
+    "./eslint/core/possible-problems.js": {
+      "default": "./src/eslint/core/possible-problems.js"
+    },
+    "./eslint/stylistic/javascript.js": {
+      "default": "./src/eslint/stylistic/javascript.js"
+    },
+    "./eslint/node/security.js": {
+      "default": "./src/eslint/node/security.js"
+    },
+    "./eslint/unicorn.js": {
+      "default": "./src/eslint/unicorn.js"
+    }
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "scripts": {
+    "lint": "npx eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "CC0-1.0",
+  "peerDependencies": {
+    "eslint": ">= 9"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin-js": "^2.13.0",
+    "@types/eslint-plugin-security": "^3.0.0",
+    "eslint-plugin-security": "^3.0.1",
+    "eslint-plugin-unicorn": "^56.0.1"
+  }
+}
