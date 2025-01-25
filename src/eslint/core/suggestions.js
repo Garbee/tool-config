@@ -212,7 +212,13 @@ export const suggestions = {
   'operator-assignment': ['error', 'always'],
   'prefer-arrow-callback': ['error'],
   'prefer-const': ['error'],
-  'prefer-destructuring': ['error'],
+  'prefer-destructuring': [
+    'error',
+    {
+      object: true,
+      array: false,
+    },
+  ],
   'prefer-exponentiation-operator': ['error'],
   'prefer-named-capture-group': ['error'],
   'prefer-numeric-literals': ['error'],
