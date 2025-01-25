@@ -23,7 +23,9 @@ export const unicorn = {
     'unicorn/expiring-todo-comments': ['error'],
     'unicorn/explicit-length-check': ['error'],
     'unicorn/filename-case': ['error'],
-    'unicorn/import-style': ['error'],
+
+    // Don't care about enforcing the style of imports
+    'unicorn/import-style': ['off'],
     'unicorn/new-for-builtins': ['error'],
     'unicorn/no-abusive-eslint-disable': ['error'],
     'unicorn/no-array-callback-reference': ['error'],
