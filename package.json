@@ -4,6 +4,11 @@
   "description": "Various shared configurations for tools",
   "main": "index.js",
   "type": "module",
+  "files": [
+    "package.json",
+    "eslint.config.js",
+    "src"
+  ],
   "exports": {
     "./package.json": {
       "default": "./package.json"
