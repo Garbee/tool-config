@@ -46,12 +46,12 @@
   "author": "",
   "license": "CC0-1.0",
   "peerDependencies": {
-    "eslint": ">= 9"
-  },
-  "devDependencies": {
-    "@stylistic/eslint-plugin-js": "^2.13.0",
-    "@types/eslint-plugin-security": "^3.0.0",
+    "@stylistic/eslint-plugin-js": "^3.0.0",
+    "eslint": ">= 9",
     "eslint-plugin-security": "^3.0.1",
     "eslint-plugin-unicorn": "^56.0.1"
+  },
+  "devDependencies": {
+    "@types/eslint-plugin-security": "^3.0.0"
   }
 }
